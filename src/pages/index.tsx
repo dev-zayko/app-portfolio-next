@@ -51,7 +51,7 @@ export default function Home() {
                         </h2>
                         <span aria-hidden className="cybr-txt__glitch">
                           <h2 className={"text-6xl font-mono text-gray-400"}>
-                            Programador juniord
+                            Programador junior
                           </h2>
                         </span>
                       </div>

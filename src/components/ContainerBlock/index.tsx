@@ -1,9 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { useRouter } from "next/router";
-import Navbar from "../Navbar/index";
 import { Particle } from "../Animation/Particle";
-import Footer from "../Footer";
 
 type Props = {
   title: string;
@@ -12,8 +9,6 @@ type Props = {
 };
 
 export default function ContainerBlock({ children }: Props) {
-  const router = useRouter();
-
   return (
     <>
       <Head>
@@ -22,7 +17,6 @@ export default function ContainerBlock({ children }: Props) {
       <Particle />
       <div>
         <main className={"container-children"}>{children}</main>
-        <Footer />
       </div>
     </>
   );
