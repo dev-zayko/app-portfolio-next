@@ -16,7 +16,9 @@ export default function ContainerBlock({ children }: Props) {
       </Head>
       <Particle />
       <div>
-        <main className={"container-children"}>{children}</main>
+        <main className={"container-parent mx-auto"}>
+          <div className="container-children">{children}</div>
+        </main>
       </div>
     </>
   );

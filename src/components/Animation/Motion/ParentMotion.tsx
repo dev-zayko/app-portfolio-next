@@ -12,7 +12,12 @@ type Props = {
 
 const ParentMotion = ({ children }: Props) => {
   return (
-    <motion.div initial="initial" animate="animate" variants={parentVariant}>
+    <motion.div
+      className="sm:px-6 lg:px-8"
+      initial="initial"
+      animate="animate"
+      variants={parentVariant}
+    >
       {children}
     </motion.div>
   );

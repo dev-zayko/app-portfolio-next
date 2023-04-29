@@ -31,14 +31,13 @@ const HomeCard = () => (
           <div className="text-gray-200 font-bold text-2xl mb-2">
             Mis Habilidades
           </div>
-          <div className="grid grid-cols-5 gap-5 mb-8">
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-5 mb-8">
             {logoSkills.map((item) => (
               <Tooltip content={item.name} key={item.name}>
                 <Image
-                  className={`logo-image animate-wiggle hover:animate-spin rounded-2xl my-2 ${
-                    (item.name == "Express" && `bg-white`) ||
+                  className={`logo-image animate-wiggle hover:animate-spin rounded-2xl my-2 ${(item.name == "Express" && `bg-white`) ||
                     (item.name == "SQL Server" && `bg-white`)
-                  }`}
+                    }`}
                   alt={item.name}
                   width={100}
                   height={100}

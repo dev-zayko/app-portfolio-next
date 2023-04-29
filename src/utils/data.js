@@ -21,13 +21,13 @@ export const myData = [
     name: "Hola,",
   },
   {
-    name: "soy Pablo Rodríguez",
+    name: "Soy Pablo Rodríguez",
   },
 ];
 
 export const projectData = [
   {
-    name: "Proyecto Motos Laravel 8",
+    name: "Proyecto Motos en Laravel 8",
     description:
       "Un proyecto simple en Laravel 8 en cual tenemos una galeria de motos con su respectivo CRUD",
     url: "https://github.com/zayko-dev/Proyecto_Motos",
@@ -39,13 +39,13 @@ export const projectData = [
     url: "https://github.com/zayko-dev/FunerariaWEB",
   },
   {
-    name: "Proyecto API typescript",
+    name: "Proyecto API en Typescript",
     description:
       "Un proyecto realizado en typescript utilizando Node con Express en el cual se maneja autores y libros con sus respectivos crud",
     url: "https://github.com/zayko-dev/express-api-typescript",
   },
   {
-    name: "Proyecto APP Movil",
+    name: "Proyecto APP Movil en React Native",
     description:
       "Un proyecto realizado en React Native para cubicaciones tiene herramientas implementadas tales como Redux Toolkit, Firebase Push notification, Custom Hooks, geolocalización, manejo de peticiones hechas con AXIOS ",
     url: "https://github.com/zayko-dev/tesis-app-cubicados",
@@ -56,6 +56,10 @@ export const logoSkills = [
   {
     name: "Javascript",
     src: "/../public/asset/logo-skill/JavaScript-logo.png",
+  },
+  {
+    name: "Typescript",
+    src: "/../public/asset/logo-skill/typescript-logo.png",
   },
   {
     name: "Java",
@@ -78,6 +82,10 @@ export const logoSkills = [
     src: "/../public/asset/logo-skill/react-native-logo.png",
   },
   {
+    name: "Redux",
+    src: "/../public/asset/logo-skill/redux-logo.png",
+  },
+  {
     name: "Html",
     src: "/../public/asset/logo-skill/html-logo.png",
   },
@@ -96,6 +104,10 @@ export const logoSkills = [
   {
     name: "Node",
     src: "/../public/asset/logo-skill/node-logo.png",
+  },
+  {
+    name: "Sequelize",
+    src: "/../public/asset/logo-skill/sequelize-logo.png",
   },
   {
     name: "Laravel",

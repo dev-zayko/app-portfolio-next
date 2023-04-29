@@ -354,6 +354,16 @@ footer {
 
 /** Container Children **/
 .container-children {
+  padding: 40px;
+}
+
+@media only screen and (max-width: 640px) {
+  .container-children {
+    padding: 0px;
+  }
+}
+
+.container-parent {
 }
 
 /** Text Portfolio effect**/
@@ -516,10 +526,10 @@ h1 {
 
 .container {
   position: absolute;
-  width: 500px;
+  width: 400px;
   z-index: 2;
   text-align: end;
-  top: 90px;
+  top: 50px;
 }
 h5 {
   font-family: "Nothing You Could Do";
